@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::{Read, Result};Read 
+use std::io::{Read, Result};
 
 fn main() -> Result<()> {
     let mut file = File::open("test.txt")?;
